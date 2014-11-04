@@ -1,0 +1,24 @@
+/* Very Simple Signup Form */
+#vssf { clear:both; }
+
+/* Label and Input fields */
+#vssf label { clear:both; font-size:1em; text-transform:none; font-weight:normal; }
+#vssf_name, #vssf_email, #vssf_phonenumber, #vssf_sum { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:90%; }
+#vssf input { -webkit-appearance:none; -moz-appearance:none; }
+
+/* Hide the 2 Honeypot fields */
+#vssf_firstname, #vssf_lastname { display:block; margin:10px 0; border:1px solid #ccc; padding:5px; font-size:1em; width:90%; visibility:hidden; display:none; }
+
+/* Submit button */
+#vssf_send { margin:5px 0; padding:5px; width:8em; border:1px solid #ccc; background:#f8f8f8; color:#333; font-size:1em; text-transform:none; font-weight:normal; }
+#vssf_send:hover { background:#f2f2f2; } 
+
+/* Input fields error */
+#vssf input.error { border-color:#e77776; }
+
+/* Error and Thank You message */
+#vssf .error { color:#e77776; }
+#vssf .hide { display:none; }
+.vssf_info { clear:both; margin:0 0 10px; font-style:italic; font-size:1.25em; }
+
+/* Widget */
