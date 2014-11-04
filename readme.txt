@@ -19,7 +19,9 @@ This is a very simple responsive translation-ready signup form.
 
 It only contains Name, Email and Phone. And a simple captcha sum. 
 
-Use shortcode [signup] to display form on page or use the widget to display form in sidebar. 
+Use shortcode [signup] to display form on page or use the widget to display form in sidebar.
+
+This plugin has no settingspage: new signups will be send to you by mail only.
 
 Dutch, German, French and Spanish translation included. 
 
@@ -39,6 +41,9 @@ Note: the sidebar widget uses shortcode [signup].
 
 
 == Frequently Asked Questions ==
+= Are signups listed in my dashboard? =
+No, this plugin has no settingspage: new signups will be send to you by mail only.
+
 = Why am I not receiving messages? =
 1) Look also in your junk/spam folder.
 
