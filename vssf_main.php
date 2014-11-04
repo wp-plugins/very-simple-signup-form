@@ -94,7 +94,6 @@ function vssf_shortcode($atts) {
 	}
 
 	// The signup form with error messages
-
 	$email_form = '<form class="vssf" id="vssf" method="post" action="">
 		<div>
 			<label for="vssf_name">'.$label_name.': <span class="error '.((isset($error_class['form_name']))?"":" hide").'" >'.$error_form_name.'</span></label>
