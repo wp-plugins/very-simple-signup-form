@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.1\n"
+"Project-Id-Version: Very Simple Signup Form v1.2\n"
 "POT-Creation-Date: 2014-03-06 19:24+0100\n"
 "PO-Revision-Date: 2014-03-06 19:26+0100\n"
 "Last-Translator: \n"
@@ -11,51 +11,56 @@ msgstr ""
 
 #: vssf_main.php:11
 #@ signupform
-msgid "Name"
+msgid "New Signup"
 msgstr ""
 
 #: vssf_main.php:12
 #@ signupform
-msgid "Email"
+msgid "Name"
 msgstr ""
 
 #: vssf_main.php:13
 #@ signupform
-msgid "Phone"
+msgid "Email"
 msgstr ""
 
 #: vssf_main.php:14
 #@ signupform
-msgid "Fill in number"
+msgid "Phone"
 msgstr ""
 
 #: vssf_main.php:15
 #@ signupform
-msgid "Signup"
+msgid "Fill in number"
 msgstr ""
 
 #: vssf_main.php:16
 #@ signupform
-msgid "Please fill in all the required fields"
+msgid "Signup"
 msgstr ""
 
 #: vssf_main.php:17
+#@ signupform
+msgid "Please fill in all the required fields"
+msgstr ""
+
 #: vssf_main.php:18
+#: vssf_main.php:19
 #@ signupform
 msgid "Please enter at least 3 characters"
 msgstr ""
 
-#: vssf_main.php:19
+#: vssf_main.php:20
 #@ signupform
 msgid "Please fill in the correct number"
 msgstr ""
 
-#: vssf_main.php:20
+#: vssf_main.php:21
 #@ signupform
 msgid "Please enter a valid email"
 msgstr ""
 
-#: vssf_main.php:21
+#: vssf_main.php:22
 #@ signupform
 msgid "Thanks for your signup! I will contact you as soon as I can."
 msgstr ""
@@ -71,7 +76,7 @@ msgstr ""
 #. translators: plugin header field 'Description'
 #: vssf_settings.php:0
 #@ signupform
-msgid "This is a very simple signup form. Use shortcode [signup] to display form on page or use the widget. For more info please check readme file."
+msgid "This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file."
 msgstr ""
 
 #. translators: plugin header field 'Author'
@@ -89,7 +94,7 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vssf_settings.php:0
 #@ signupform
-msgid "1.0"
+msgid "1.2"
 msgstr ""
 
 #: vssf_widget.php:7
@@ -101,4 +106,3 @@ msgstr ""
 #@ signupform
 msgid "Widget Title:"
 msgstr ""
-

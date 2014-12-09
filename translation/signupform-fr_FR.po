@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.1\n"
+"Project-Id-Version: Very Simple Signup Form v1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-11-01 13:13:32+0000\n"
+"PO-Revision-Date: 2014-12-09 21:03:03+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,12 +20,12 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: vssf_main.php:11
+#: vssf_main.php:12
 #@ signupform
 msgid "Name"
 msgstr "Nom"
 
-#: vssf_main.php:12
+#: vssf_main.php:13
 #@ signupform
 msgid "Email"
 msgstr "Adresse e-mail"
@@ -42,55 +42,43 @@ msgstr ""
 msgid "Guido van der Leest"
 msgstr ""
 
-#: vssf_main.php:16
+#: vssf_main.php:17
 #@ signupform
 msgid "Please fill in all the required fields"
 msgstr "Veuillez remplir tous les champs requis"
 
-#: vssf_main.php:17
 #: vssf_main.php:18
+#: vssf_main.php:19
 #@ signupform
 msgid "Please enter at least 3 characters"
 msgstr "Veuillez entrer au moins 3 charactères"
 
-#: vssf_main.php:20
+#: vssf_main.php:21
 #@ signupform
 msgid "Please enter a valid email"
 msgstr "Veuillez entrer une adresse e-mail valide"
 
-#: vssf_main.php:21
+#: vssf_main.php:22
 #@ signupform
 msgid "Thanks for your signup! I will contact you as soon as I can."
 msgstr "Merci pour votre inscription! Nous vous contacterons dans les plus brefs délais."
 
-#. translators: plugin header field 'Description'
-#: vssf_settings.php:0
-#@ signupform
-msgid "This is a very simple signup form. Use shortcode [signup] to display form on page or use the widget. For more info please check readme file."
-msgstr "C'est un formulaire d'inscription très simple. Utilisez le shortcode [signup] afin d'afficher le formulaire sur la page ou utiliser le widget. Veuillez lire le fichier README pour plus d'informations."
-
-#: vssf_main.php:14
+#: vssf_main.php:15
 #@ signupform
 msgid "Fill in number"
 msgstr "Remplir nombre"
 
-#: vssf_main.php:19
+#: vssf_main.php:20
 #@ signupform
 msgid "Please fill in the correct number"
 msgstr "Veuillez remplir correcte nombre"
 
-#. translators: plugin header field 'Version'
-#: vssf_settings.php:0
-#@ signupform
-msgid "1.0"
-msgstr ""
-
-#: vssf_main.php:13
+#: vssf_main.php:14
 #@ signupform
 msgid "Phone"
 msgstr "Téléphone"
 
-#: vssf_main.php:15
+#: vssf_main.php:16
 #@ signupform
 msgid "Signup"
 msgstr "Signer"
@@ -112,4 +100,21 @@ msgstr ""
 #@ signupform
 msgid "Widget Title:"
 msgstr "Titre le widget:"
+
+#: vssf_main.php:11
+#@ signupform
+msgid "New Signup"
+msgstr "Nouvel Inscription"
+
+#. translators: plugin header field 'Description'
+#: vssf_settings.php:0
+#@ signupform
+msgid "This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file."
+msgstr "C'est un formulaire d'inscription très simple. Utiliser le widget d'afficher le formulaire in sidebar. Veuillez lire le fichier README pour plus d'informations."
+
+#. translators: plugin header field 'Version'
+#: vssf_settings.php:0
+#@ signupform
+msgid "1.2"
+msgstr ""
 
