@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.0\n"
+"Project-Id-Version: Very Simple Signup Form v1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-11-01 13:15:20+0000\n"
+"PO-Revision-Date: 2014-12-05 10:56:44+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -67,12 +67,12 @@ msgstr "Dies ist ein sehr einfaches Anmeldungsformular. Verwenden shortcode [sig
 #: vssf_main.php:14
 #@ signupform
 msgid "Fill in number"
-msgstr "Ausfüllen Nummer"
+msgstr "Folgende Nummer eingeben"
 
 #: vssf_main.php:19
 #@ signupform
 msgid "Please fill in the correct number"
-msgstr "Bitte das richtige Nummer ausfüllen"
+msgstr "Bitte die richtige Nummer eingeben"
 
 #: vssf_main.php:13
 #@ signupform
