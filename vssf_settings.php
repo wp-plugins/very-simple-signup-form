@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Very Simple Signup Form
- * Description: This is a very simple signup form. Use shortcode [signup] to display form on page or use the widget. For more info please check readme file.
- * Version: 1.0
+ * Description: This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file.
+ * Version: 1.1
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later

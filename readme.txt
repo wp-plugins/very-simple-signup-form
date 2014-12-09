@@ -1,25 +1,31 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
-Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget
+Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar
 
 
 == Changelog ==
+Version 1.1
+- adjusted plugin for use as widget only. The shortcode for displaying form on page is still supported, but do not use shortcode + widget.
+- updated language files
+
 Version 1.0
 - first stable release
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready signup form. 
+This is a very simple responsive translation-ready Widget signup form. 
+
+Now visitors of your website can signup for a meeting, event and more.
 
 It only contains Name, Email and Phone. And a simple captcha sum. 
 
-Use shortcode [signup] to display form on page or use the widget to display form in sidebar.
+Use the widget to display form in sidebar.
 
 This plugin has no settingspage: new signups will be send to you by mail only.
 
@@ -29,18 +35,17 @@ For more info please check readme file.
 
 
 == INSTALLATION == 
-After installation please add shortcode [signup] on your signup page for displaying the form. 
+After installation go to Appearance > Widgets and add the widget to the sidebar.
 
-In this case messages will be send to email from admin (Settings > General).
-
-If you want to use another email, use shortcode [signup email_to="your-email-here"].
-
-And if you want to use multiple email, use shortcode [signup email_to="first-email-here, second-email-here"].
-
-Note: the sidebar widget uses shortcode [signup].
+The form uses email from admin (set in Settings > General).
 
 
 == Frequently Asked Questions ==
+= Can I still use the shortcode from version 1.0? =
+In version 1.1 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
+
+The shortcode for displaying form on page is still supported, but do not use shortcode + widget.
+
 = Are signups listed in my dashboard? =
 No, this plugin has no settingspage: new signups will be send to you by mail only.
 
