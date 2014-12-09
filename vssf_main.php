@@ -8,6 +8,7 @@ $_SESSION['vssf-rand'] = isset($_SESSION['vssf-rand']) ? $_SESSION['vssf-rand'] 
 function vssf_shortcode($atts) {
 	extract(shortcode_atts(array(
 		"email_to" 			=> get_bloginfo('admin_email'),
+		"form_subject" 			=> __('New Signup', 'signupform') ,
 		"label_name" 			=> __('Name', 'signupform') ,
 		"label_email" 			=> __('Email', 'signupform') ,
 		"label_phonenumber" 		=> __('Phone', 'signupform') ,
@@ -77,7 +78,7 @@ function vssf_shortcode($atts) {
 
 		// Sending message to admin
 		if ($error == false) {
-			$email_subject = "[" . get_bloginfo('name') . "] " . $form_data['form_name'];
+			$email_subject = "[" . get_bloginfo('name') . "] " . $form_subject;
 			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";

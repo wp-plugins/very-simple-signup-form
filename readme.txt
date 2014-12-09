@@ -1,6 +1,6 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.1
+Version: 1.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
@@ -10,8 +10,9 @@ Tags: simple, responsive, signup, signupform, subscribe, subscription, email, ho
 
 
 == Changelog ==
-Version 1.1
+Version 1.2
 - adjusted plugin for use as widget only. The shortcode for displaying form on page is still supported, but do not use shortcode + widget.
+- added translatable form subject
 - updated language files
 
 Version 1.0
@@ -42,7 +43,7 @@ The form uses email from admin (set in Settings > General).
 
 == Frequently Asked Questions ==
 = Can I still use the shortcode from version 1.0? =
-In version 1.1 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
+In version 1.2 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
 
 The shortcode for displaying form on page is still supported, but do not use shortcode + widget.
 
