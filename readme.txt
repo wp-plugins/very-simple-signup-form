@@ -4,15 +4,18 @@ Version: 1.2
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at Least: 3.7
-Tested up to: 4.1
+Tested up to: 4.0
 Stable tag: trunk
 Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar
 
 
 == Changelog ==
 Version 1.2
-- adjusted plugin for use as widget only. The shortcode for displaying form on page is still supported, but do not use shortcode + widget.
 - added translatable form subject
+- updated language files
+
+Version 1.1
+- adjusted plugin for use as widget only. The shortcode for displaying form on page is still supported. Do not use shortcode + widget because this may cause a conflict.
 - updated language files
 
 Version 1.0
@@ -20,7 +23,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple responsive translation-ready Widget signup form. 
+This is a very simple responsive translation-ready signup form. 
 
 Now visitors of your website can signup for a meeting, event and more.
 
@@ -36,16 +39,16 @@ For more info please check readme file.
 
 
 == INSTALLATION == 
-After installation go to Appearance > Widgets and add the widget to the sidebar.
+After installation go to Appearance > Widgets and add the widget to your sidebar.
 
 The form uses email from admin (set in Settings > General).
 
 
 == Frequently Asked Questions ==
 = Can I still use the shortcode from version 1.0? =
-In version 1.2 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
+In version 1.1 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
 
-The shortcode for displaying form on page is still supported, but do not use shortcode + widget.
+The shortcode for displaying form on page is still supported. Do not use shortcode + widget because this may cause a conflict.
 
 = Are signups listed in my dashboard? =
 No, this plugin has no settingspage: new signups will be send to you by mail only.
