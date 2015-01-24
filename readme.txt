@@ -36,9 +36,22 @@ Use the widget to display form in sidebar.
 
 This plugin has no settingspage: new signups will be send to you by mail only.
 
-Dutch, German, French and Spanish translation included. 
+= Translation =
+Dutch, German, French and Spanish translation included. More translations are very welcome! Please contact me via my website.
 
-For more info please check readme file.
+= Credits =
+Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
+
+I used this scripts for developing the Very Simple Signup Form:
+
+http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
+
+http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
+
+These scripts are released under the GNU General Public License v3 or later
+
+Enjoy,
+Guido
 
 
 == Installation == 
@@ -88,31 +101,3 @@ Please open a topic in plugin forum or send me a message via my website.
 1. Very Simple Signup Form in frontend (using Twenty Fourteen theme).
 
 2. Very Simple Signup Form in frontend (using Twenty Fourteen theme).
-
-
-== Other Notes ==
-Very Simple Signup Form is based on my other plugin: Very Simple Contact Form.
-
-This plugin is translation-ready (Dutch, German, French and Spanish translation included). 
-
-More translations are very welcome! Please contact me via my website.
-
-You can translate this into your own language using for example plugin Codestyling Localization: 
-
-http://wordpress.org/plugins/codestyling-localization/
-
-
-== Credits ==
-Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
-
-I used this scripts for developing the Very Simple Signup Form:
-
-http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
-
-http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
-
-These scripts are released under the GNU General Public License v3 or later
-
-
-Enjoy,
-Guido
