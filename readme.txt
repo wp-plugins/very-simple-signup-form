@@ -25,7 +25,7 @@ Version 1.0
 - first stable release
 
 
-== DESCRIPTION ==
+== Description ==
 This is a very simple responsive translation-ready signup form. 
 
 Now visitors of your website can signup for a meeting, event and more.
@@ -41,7 +41,7 @@ Dutch, German, French and Spanish translation included.
 For more info please check readme file.
 
 
-== INSTALLATION == 
+== Installation == 
 After installation go to Appearance > Widgets and add the widget to your sidebar.
 
 The form uses email from admin (set in Settings > General).
@@ -90,7 +90,7 @@ Please open a topic in plugin forum or send me a message via my website.
 2. Very Simple Signup Form in frontend (using Twenty Fourteen theme).
 
 
-== OTHER NOTES ==
+== Other Notes ==
 Very Simple Signup Form is based on my other plugin: Very Simple Contact Form.
 
 This plugin is translation-ready (Dutch, German, French and Spanish translation included). 
@@ -102,7 +102,7 @@ You can translate this into your own language using for example plugin Codestyli
 http://wordpress.org/plugins/codestyling-localization/
 
 
-== CREDITS ==
+== Credits ==
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
 I used this scripts for developing the Very Simple Signup Form:
