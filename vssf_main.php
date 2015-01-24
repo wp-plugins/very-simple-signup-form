@@ -91,37 +91,30 @@ function vssf_shortcode($atts) {
 
 	// Message 
 	if($result != "") {
-		$info .= '<div class="vssf_info">'.$result.'</div>';
+		$info .= '<p class="vssf_info">'.$result.'</p>';
 	}
 
 	// The signup form with error messages
 	$email_form = '<form class="vssf" id="vssf" method="post" action="">
-		<div>
-			<label for="vssf_name">'.$label_name.': <span class="error '.((isset($error_class['form_name']))?"":" hide").'" >'.$error_form_name.'</span></label>
-			<input type="text" name="form_name" id="vssf_name" class="'.$error_class['form_name'].'" maxlength="50" value="'.$form_data['form_name'].'" />
-		</div>
-		<div>
-			<label for="vssf_email">'.$label_email.': <span class="error '.((isset($error_class['email']))?"":" hide").'" >'.$error_email.'</span></label>
-			<input type="text" name="email" id="vssf_email" class="'.$error_class['email'].'" maxlength="50" value="'.$form_data['email'].'" />
-		</div>
-		<div>
-			<label for="vssf_phonenumber">'.$label_phonenumber.': <span class="error '.((isset($error_class['form_phonenumber']))?"":" hide").'" >'.$error_form_phonenumber.'</span></label>
-			<input type="text" name="form_phonenumber" id="vssf_phonenumber" class="'.$error_class['form_phonenumber'].'" maxlength="20" value="'.$form_data['form_phonenumber'].'" />
-		</div>
-		<div>
-			<label for="vssf_sum">'.$label_sum.' '. $_SESSION['vssf-rand'].': <span class="error '.((isset($error_class['form_sum']))?"":" hide").'" >'.$error_form_sum.'</span></label>
-			<input type="text" name="form_sum" id="vssf_sum" class="'.$error_class['form_sum'].'" maxlength="20" value="'.$form_data['form_sum'].'" />
-		</div>
-		<div>
-			<input type="text" name="form_firstname" id="vssf_firstname" class="'.$error_class['form_firstname'].'" maxlength="20" value="'.$form_data['form_firstname'].'" />
-		</div>
-
-		<div>
-			<input type="text" name="form_lastname" id="vssf_lastname" class="'.$error_class['form_lastname'].'" maxlength="20" value="'.$form_data['form_lastname'].'" />
-		</div>
-		<div>
-			<input type="submit" value="'.$label_submit.'" name="signup_send" class="vssf_send" id="vssf_send" />
-		</div>
+		
+		<p><label for="vssf_name">'.$label_name.': <span class="error '.((isset($error_class['form_name']))?"":" hide").'" >'.$error_form_name.'</span></label></p>
+		<p><input type="text" name="form_name" id="vssf_name" class="'.$error_class['form_name'].'" maxlength="50" value="'.$form_data['form_name'].'" /></p>
+		
+		<p><label for="vssf_email">'.$label_email.': <span class="error '.((isset($error_class['email']))?"":" hide").'" >'.$error_email.'</span></label></p>
+		<p><input type="text" name="email" id="vssf_email" class="'.$error_class['email'].'" maxlength="50" value="'.$form_data['email'].'" /></p>
+		
+		<p><label for="vssf_phonenumber">'.$label_phonenumber.': <span class="error '.((isset($error_class['form_phonenumber']))?"":" hide").'" >'.$error_form_phonenumber.'</span></label></p>
+		<p><input type="text" name="form_phonenumber" id="vssf_phonenumber" class="'.$error_class['form_phonenumber'].'" maxlength="20" value="'.$form_data['form_phonenumber'].'" /></p>
+		
+		<p><label for="vssf_sum">'.$label_sum.' '. $_SESSION['vssf-rand'].': <span class="error '.((isset($error_class['form_sum']))?"":" hide").'" >'.$error_form_sum.'</span></label></p>
+		<p><input type="text" name="form_sum" id="vssf_sum" class="'.$error_class['form_sum'].'" maxlength="20" value="'.$form_data['form_sum'].'" /></p>
+		
+		<p><input type="text" name="form_firstname" id="vssf_firstname" class="'.$error_class['form_firstname'].'" maxlength="20" value="'.$form_data['form_firstname'].'" /></p>
+		
+		<p><input type="text" name="form_lastname" id="vssf_lastname" class="'.$error_class['form_lastname'].'" maxlength="20" value="'.$form_data['form_lastname'].'" /></p>
+		
+		<p><input type="submit" value="'.$label_submit.'" name="signup_send" class="vssf_send" id="vssf_send" /></p>
+		
 	</form>';
 	
 	// Send message and erase captcha session or display form with error messages

@@ -1,15 +1,18 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.2
+Version: 1.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Requires at Least: 3.7
+Requires at least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
 Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar
 
 
 == Changelog ==
+Version 1.3
+- replaced all divs with paragraph tags for better form display
+
 Version 1.2
 - added translatable form subject
 - updated language files
