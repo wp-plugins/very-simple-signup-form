@@ -2,25 +2,39 @@
 #vssf {clear:both;}
 #vssf p {margin:0 0 10px;}
 
+
 /* Label and Input fields */
 #vssf label {font-size:1em; text-transform:none; font-weight:normal;}
-#vssf_name, #vssf_email, #vssf_phonenumber, #vssf_sum {border:1px solid #ccc; padding:5px; font-size:1em; width:90%;}
-#vssf input {-webkit-appearance:none; -moz-appearance:none;}
+#vssf input {font-size:1em; -webkit-appearance:none; -moz-appearance:none;}
+#vssf_name, #vssf_email, #vssf_phonenumber, #vssf_sum, #vssf_firstname, #vssf_lastname {width:90%;}
 
-/* Hide the 2 Honeypot fields */
-#vssf_firstname, #vssf_lastname {border:1px solid #ccc; padding:5px; font-size:1em; width:90%; visibility:hidden; display:none;}
 
-/* Submit button */
-#vssf_send {padding:5px; width:8em; border:1px solid #ccc; background:#f8f8f8; color:#333; font-size:1em; text-transform:none; font-weight:normal;}
-#vssf_send:hover {background:#f2f2f2;} 
+/* Input fields - uses default theme styling - if not supported you can activate styling displayed underneath */
+	/*
+	#vssf_name, #vssf_email, #vssf_phonenumber, #vssf_sum, #vssf_firstname, #vssf_lastname {border:1px solid #ccc; padding:5px;}
+	*/
+
+
+/* Submit button - uses default theme styling - if not supported you can activate styling displayed underneath */
+	/*
+	#vssf_send {width:8em; border:1px solid #ccc; padding:5px; background:#f8f8f8; color:#333; text-transform:none; font-weight:normal;}
+	#vssf_send:hover {background:#f2f2f2;} 
+	*/
+
+
+/* Hide the 2 fake Honeypot fields */
+#vssf_firstname, #vssf_lastname {visibility:hidden; display:none;}
+
 
 /* Input fields error */
 #vssf input.error {border-color:#e77776;}
+
 
 /* Error and Thank You message */
 #vssf .error {color:#e77776;}
 #vssf .hide {display:none;}
 .vssf_info {margin:0 0 10px; font-style:italic; font-size:1.25em;}
+
 
 /* Widget */
 .vssf_sidebar {}

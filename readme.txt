@@ -1,6 +1,6 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.3
+Version: 1.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,9 @@ Tags: simple, responsive, signup, signupform, subscribe, subscription, email, ho
 
 
 == Changelog ==
+Version 1.4
+- form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vssf_style.
+
 Version 1.3
 - replaced all divs with paragraph tags for better form display
 
@@ -61,6 +64,11 @@ The form uses email from admin (set in Settings > General).
 
 
 == Frequently Asked Questions ==
+= I don't like the form layout in my theme, how can I change this? =
+From version 1.4 form will use theme styling for input fields and submit button. 
+
+If not supported in your theme you can activate plugin styling in file vssf_style.
+
 = Can I still use the shortcode from version 1.0? =
 In version 1.1 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
 
