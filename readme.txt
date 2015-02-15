@@ -106,6 +106,6 @@ Please open a topic in plugin forum or send me a message via my website.
 
 
 == Screenshots == 
-1. Very Simple Signup Form in frontend (using Twenty Fourteen theme).
+1. Very Simple Signup Form in frontend (using Twenty Fifteen theme).
 
-2. Very Simple Signup Form in frontend (using Twenty Fourteen theme).
+2. Very Simple Signup Form in frontend (using Twenty Fifteen theme).
