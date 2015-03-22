@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.2\n"
+"Project-Id-Version: Very Simple Signup Form v1.4\n"
 "POT-Creation-Date: 2014-03-06 19:24+0100\n"
 "PO-Revision-Date: 2014-03-06 19:26+0100\n"
 "Last-Translator: \n"
@@ -67,6 +67,7 @@ msgstr ""
 
 #. translators: plugin header field 'Name'
 #: vssf_settings.php:0
+#: vssf_settings.php:110
 #: vssf_widget.php:8
 #: vssf_widget.php:41
 #@ signupform
@@ -94,7 +95,82 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vssf_settings.php:0
 #@ signupform
-msgid "1.2"
+msgid "1.4"
+msgstr ""
+
+#: vssf_settings.php:80
+#@ signupform
+msgid "VSSF Custom Style"
+msgstr ""
+
+#: vssf_settings.php:88
+#@ signupform
+msgid "Description"
+msgstr ""
+
+#: vssf_settings.php:89
+#@ signupform
+msgid "Custom Style"
+msgstr ""
+
+#: vssf_settings.php:95
+#@ signupform
+msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Signup Form."
+msgstr ""
+
+#: vssf_settings.php:114
+#@ signupform
+msgid "Save Style"
+msgstr ""
+
+#: vssf_settings.php:120
+#@ signupform
+msgid "Field label"
+msgstr ""
+
+#: vssf_settings.php:122
+#@ signupform
+msgid "All fields"
+msgstr ""
+
+#: vssf_settings.php:124
+#@ signupform
+msgid "Fields by name"
+msgstr ""
+
+#: vssf_settings.php:126
+#@ signupform
+msgid "Submit button"
+msgstr ""
+
+#: vssf_settings.php:131
+#@ signupform
+msgid "Field error"
+msgstr ""
+
+#: vssf_settings.php:133
+#@ signupform
+msgid "Error and Thank You message"
+msgstr ""
+
+#: vssf_settings.php:136
+#@ signupform
+msgid "Widget"
+msgstr ""
+
+#: vssf_settings.php:138
+#@ signupform
+msgid "Plugin Stylesheet"
+msgstr ""
+
+#: vssf_settings.php:139
+#@ signupform
+msgid "For Default Style"
+msgstr ""
+
+#: vssf_settings.php:139
+#@ signupform
+msgid "Click Here"
 msgstr ""
 
 #: vssf_widget.php:7
