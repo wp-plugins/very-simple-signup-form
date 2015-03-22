@@ -1,7 +1,7 @@
 <?php
 
 // Start session for captcha validation
-session_start();
+if (!isset ($_SESSION)) session_start(); 
 $_SESSION['vssf-rand'] = isset($_SESSION['vssf-rand']) ? $_SESSION['vssf-rand'] : rand(100, 999);
 
 // The shortcode
