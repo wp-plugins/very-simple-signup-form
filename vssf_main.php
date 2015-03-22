@@ -26,7 +26,6 @@ function vssf_shortcode($atts) {
 	$form_data = array(
 		'form_name' => '',
 		'email' => '',
-		'form_subject' => '',
 		'form_phonenumber' => '',
 		'form_sum' => '',
 		'form_firstname' => '',
