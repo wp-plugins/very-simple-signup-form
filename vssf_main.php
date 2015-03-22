@@ -31,7 +31,6 @@ function vssf_shortcode($atts) {
 		'form_sum' => '',
 		'form_firstname' => '',
 		'form_lastname' => '',
-		'form_message' => ''
 	);
 	$error = false;
 	$sent = false;
