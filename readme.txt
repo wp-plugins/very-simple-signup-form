@@ -1,15 +1,22 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.4
+Version: 1.5
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.1
 Stable tag: trunk
-Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar
+Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar, custom, style, css, editor
 
 
 == Changelog ==
+Version 1.5
+- major update
+- cleaned up code in file vssf_main
+- added Custom Style editor: you can change the layout (CSS) of your form using the custom style page in WP dashboard
+- linebreaks in textarea field are allowed now
+- updated language files 
+
 Version 1.4
 - form will now use theme styling for input fields and submit button. If not supported in your theme you can activate plugin styling in file vssf_style.
 
@@ -39,6 +46,8 @@ Use the widget to display form in sidebar.
 
 This plugin has no settingspage: new signups will be send to you by mail only.
 
+You can change the layout (CSS) of your form using the custom style page in WP dashboard.
+
 = Translation =
 Dutch, German, French and Spanish translation included. More translations are very welcome! Please contact me via my website.
 
@@ -65,9 +74,9 @@ The form uses email from admin (set in Settings > General).
 
 == Frequently Asked Questions ==
 = I don't like the form layout in my theme, how can I change this? =
-From version 1.4 form will use theme styling for input fields and submit button. 
+Form will use theme styling for input fields and submit button. 
 
-If not supported in your theme you can activate plugin styling in file vssf_style.
+Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 1000 characters allowed.
 
 = Can I still use the shortcode from version 1.0? =
 In version 1.1 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.
@@ -82,11 +91,12 @@ No, this plugin has no settingspage: new signups will be send to you by mail onl
 
 2) Check info about installation and check shortcode for mistakes.
 
-3) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
+3) Install another contactform plugin to determine if it's caused by Very Simple Signup Form or something else.
+
+4) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
 
 = Is my language supported too? =
-All UTF-8 characters are allowed, so many languages are supported.
-But the plugin itself is only translated in several languages. 
+All UTF-8 characters are allowed, so many languages are supported. But the plugin itself is only translated in several languages. 
 
 = Is this plugin protected against spammers, bots, etc? =
 The default WordPress sanitization function is included.
@@ -109,3 +119,5 @@ Please open a topic in plugin forum or send me a message via my website.
 1. Very Simple Signup Form in frontend (using Twenty Fifteen theme).
 
 2. Very Simple Signup Form in frontend (using Twenty Fifteen theme).
+
+3. Very Simple Signup Form Custom Style editor.
