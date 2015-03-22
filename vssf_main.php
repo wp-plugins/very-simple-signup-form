@@ -87,7 +87,7 @@ function vssf_shortcode($atts) {
 
 		// Sending message to admin
 		if ($error == false) {
-			$email_subject = "[".get_bloginfo('name')."] " . $form_data['form_subject'];
+			$email_subject = "[".get_bloginfo('name')."] " . $form_subject;
 			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
