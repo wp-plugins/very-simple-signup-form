@@ -39,7 +39,7 @@ function vssf_shortcode($atts) {
 	$security_fields = array("form_firstname", "form_lastname");
 	$sum_fields = array("form_sum");
 
-	if (($_SERVER['REQUEST_METHOD'] == 'POST') && isset($_POST['form_send']) ) {
+	if (($_SERVER['REQUEST_METHOD'] == 'POST') && isset($_POST['signup_send']) ) {
 	
 		// Get posted data and sanitize them
 		$post_data = array(
@@ -123,7 +123,7 @@ function vssf_shortcode($atts) {
 		
 		<p><input type="text" name="form_lastname" id="vssf_lastname" class="'.((isset($error_class['form_lastname'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_lastname'].'" /></p>
 		
-		<p><input type="submit" value="'.$label_submit.'" name="form_send" class="vssf_send" id="vssf_send" /></p>
+		<p><input type="submit" value="'.$label_submit.'" name="signup_send" class="vssf_send" id="vssf_send" /></p>
 		
 	</form>';
 	
