@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Signup Form
  * Description: This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file.
- * Version: 1.5
+ * Version: 1.6
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -21,8 +21,7 @@ add_action('plugins_loaded', 'vssf_init');
 
 // Enqueues plugin scripts
 function vssf_scripts() {	
-	if(!is_admin())
-	{
+	if(!is_admin())	{
 		wp_enqueue_style('vssf_style', plugins_url('vssf_style.css',__FILE__));
 	}
 }

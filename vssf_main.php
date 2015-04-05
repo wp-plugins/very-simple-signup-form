@@ -5,8 +5,8 @@ if (!isset ($_SESSION)) session_start();
 $_SESSION['vssf-rand'] = isset($_SESSION['vssf-rand']) ? $_SESSION['vssf-rand'] : rand(100, 999);
 
 // The shortcode
-function vssf_shortcode($atts) {
-	extract(shortcode_atts(array(
+function vssf_shortcode($vssf_atts) {
+	$vssf_atts = shortcode_atts( array( 
 		"email_to" 			=> get_bloginfo('admin_email'),
 		"form_subject" 			=> __('New Signup', 'signupform') ,
 		"label_name" 			=> __('Name', 'signupform') ,
@@ -20,7 +20,7 @@ function vssf_shortcode($atts) {
 		"error_form_sum" 		=> __("Please fill in the correct number", "signupform"),
 		"error_email" 			=> __("Please enter a valid email", "signupform"),
 		"success" 				=> __("Thanks for your signup! I will contact you as soon as I can.", "signupform"),
-	), $atts));
+	), $vssf_atts);
 
 	// Set some variables 
 	$form_data = array(
@@ -57,7 +57,7 @@ function vssf_shortcode($atts) {
 			if (((($required_field == "form_name") || ($required_field == "form_phonenumber")) && strlen($value)<3) || empty($value)) {
 				$error_class[$required_field] = "error";
 				$error = true;
-				$result = $error_empty;
+				$result = $vssf_atts['error_empty'];
 			}
 			$form_data[$required_field] = $value;
 		}
@@ -69,7 +69,7 @@ function vssf_shortcode($atts) {
 			if ($_POST['form_sum'] != $_SESSION['vssf-rand']) { 
 				$error_class[$sum_field] = "error";
 				$error = true;
-				$result = $error_empty;
+				$result = $vssf_atts['error_empty'];
 			}
 			$form_data[$sum_field] = $value;
 		}
@@ -87,13 +87,13 @@ function vssf_shortcode($atts) {
 
 		// Sending message to admin
 		if ($error == false) {
-			$email_subject = "[".get_bloginfo('name')."] " . $form_subject;
+			$email_subject = "[".get_bloginfo('name')."] " . $vssf_atts['form_subject'];
 			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
-			wp_mail($email_to, $email_subject, $email_message, $headers);
-			$result = $success;
+			wp_mail($vssf_atts['email_to'], $email_subject, $email_message, $headers);
+			$result = $vssf_atts['success'];
 			$sent = true;
 		}
 	}
@@ -106,23 +106,23 @@ function vssf_shortcode($atts) {
 	// The contact form with error messages
 	$email_form = '<form class="vssf" id="vssf" method="post" action="">
 		
-		<p><label for="vssf_name">'.$label_name.': <span class="'.((isset($error_class['form_name'])) ? "error" : "hide").'" >'.$error_form_name.'</span></label></p>
+		<p><label for="vssf_name">'.$vssf_atts['label_name'].': <span class="'.((isset($error_class['form_name'])) ? "error" : "hide").'" >'.$vssf_atts['error_form_name'].'</span></label></p>
 		<p><input type="text" name="form_name" id="vssf_name" class="'.((isset($error_class['form_name'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_name'].'" /></p>
 		
-		<p><label for="vssf_email">'.$label_email.': <span class="'.((isset($error_class['email'])) ? "error" : "hide").'" >'.$error_email.'</span></label></p>
+		<p><label for="vssf_email">'.$vssf_atts['label_email'].': <span class="'.((isset($error_class['email'])) ? "error" : "hide").'" >'.$vssf_atts['error_email'].'</span></label></p>
 		<p><input type="text" name="email" id="vssf_email" class="'.((isset($error_class['email'])) ? "error" : "").'" maxlength="50" value="'.$form_data['email'].'" /></p>
 		
-		<p><label for="vssf_phonenumber">'.$label_phonenumber.': <span class="'.((isset($error_class['form_phonenumber'])) ? "error" : "hide").'" >'.$error_form_phonenumber.'</span></label></p>
+		<p><label for="vssf_phonenumber">'.$vssf_atts['label_phonenumber'].': <span class="'.((isset($error_class['form_phonenumber'])) ? "error" : "hide").'" >'.$vssf_atts['error_form_phonenumber'].'</span></label></p>
 		<p><input type="text" name="form_phonenumber" id="vssf_phonenumber" class="'.((isset($error_class['form_phonenumber'])) ? "error" : "").'" maxlength="20" value="'.$form_data['form_phonenumber'].'" /></p>
 		
-		<p><label for="vssf_sum">'.$label_sum.' '. $_SESSION['vssf-rand'].': <span class="'.((isset($error_class['form_sum'])) ? "error" : "hide").'" >'.$error_form_sum.'</span></label></p>
+		<p><label for="vssf_sum">'.$vssf_atts['label_sum'].' '. $_SESSION['vssf-rand'].': <span class="'.((isset($error_class['form_sum'])) ? "error" : "hide").'" >'.$vssf_atts['error_form_sum'].'</span></label></p>
 		<p><input type="text" name="form_sum" id="vssf_sum" class="'.((isset($error_class['form_sum'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_sum'].'" /></p>
 		
 		<p><input type="text" name="form_firstname" id="vssf_firstname" class="'.((isset($error_class['form_firstname'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_firstname'].'" /></p>
 		
 		<p><input type="text" name="form_lastname" id="vssf_lastname" class="'.((isset($error_class['form_lastname'])) ? "error" : "").'" maxlength="50" value="'.$form_data['form_lastname'].'" /></p>
 		
-		<p><input type="submit" value="'.$label_submit.'" name="signup_send" class="vssf_send" id="vssf_send" /></p>
+		<p><input type="submit" value="'.$vssf_atts['label_submit'].'" name="signup_send" class="vssf_send" id="vssf_send" /></p>
 		
 	</form>';
 	

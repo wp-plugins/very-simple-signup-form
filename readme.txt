@@ -1,6 +1,6 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.5
+Version: 1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, signup, signupform, subscribe, subscription, email, ho
 
 
 == Changelog ==
+Version 1.6
+- removed 'extract' from file vssf_main
+- adjusted code in file vssf_main
+- cleaned up code in file vssf_style
+
 Version 1.5
 - major update
 - cleaned up code in file vssf_main
