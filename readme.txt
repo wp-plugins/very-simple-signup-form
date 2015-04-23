@@ -4,7 +4,7 @@ Version: 1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: trunk
 Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar, custom, style, css, editor
 
@@ -81,7 +81,7 @@ The form uses email from admin (set in Settings > General).
 = I don't like the form layout in my theme, how can I change this? =
 Form will use theme styling for input fields and submit button. 
 
-Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 1000 characters allowed.
+Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 2000 characters allowed.
 
 = Can I still use the shortcode from version 1.0? =
 In version 1.1 I have adjusted plugin for use as widget only, because a signup form is mostly displayed in a sidebar.

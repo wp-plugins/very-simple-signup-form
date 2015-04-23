@@ -97,7 +97,7 @@ function vssf_section_callback() {
 
 function vssf_field_callback() {
     $vssf_setting = esc_textarea( get_option( 'vssf-setting' ) );
-    echo "<textarea name='vssf-setting' rows='10' cols='60' maxlength='1000'>$vssf_setting</textarea>";
+    echo "<textarea name='vssf-setting' rows='10' cols='60' maxlength='2000'>$vssf_setting</textarea>";
 }
 
 
