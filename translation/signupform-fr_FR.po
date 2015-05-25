@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.6\n"
+"Project-Id-Version: Very Simple Signup Form v1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-04-05 22:01:34+0000\n"
+"PO-Revision-Date: 2015-05-25 09:20:08+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -50,8 +50,8 @@ msgstr "Veuillez remplir tous les champs requis"
 #: vssf_main.php:18
 #: vssf_main.php:19
 #@ signupform
-msgid "Please enter at least 3 characters"
-msgstr "Veuillez entrer au moins 3 charactères"
+msgid "Please enter at least 2 characters"
+msgstr "Veuillez entrer au moins 2 charactères"
 
 #: vssf_main.php:21
 #@ signupform
@@ -85,7 +85,7 @@ msgstr "Signer"
 
 #. translators: plugin header field 'Name'
 #: vssf_settings.php:0
-#: vssf_settings.php:109
+#: vssf_settings.php:116
 #: vssf_widget.php:8
 #: vssf_widget.php:41
 #@ signupform
@@ -113,77 +113,77 @@ msgstr "Nouvel Inscription"
 msgid "This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file."
 msgstr "C'est un formulaire d'inscription très simple. Utiliser le widget pour afficher le formulaire dans la barre latérale. Veuillez lire le fichier README pour plus d'informations."
 
-#: vssf_settings.php:79
+#: vssf_settings.php:86
 #@ signupform
 msgid "VSSF Custom Style"
 msgstr "VSSF Style Personnalisé"
 
-#: vssf_settings.php:87
+#: vssf_settings.php:94
 #@ signupform
 msgid "Description"
 msgstr "Description"
 
-#: vssf_settings.php:88
+#: vssf_settings.php:95
 #@ signupform
 msgid "Custom Style"
 msgstr "Style Personnalisé"
 
-#: vssf_settings.php:94
+#: vssf_settings.php:101
 #@ signupform
 msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Signup Form."
 msgstr "Sur cette page, vous pouvez ajouter un Style Personnalisé (CSS) pour modifier la mise en page de votre Very Simple Signup Form."
 
-#: vssf_settings.php:113
+#: vssf_settings.php:120
 #@ signupform
 msgid "Save Style"
 msgstr "Enregistrer le Style"
 
-#: vssf_settings.php:119
+#: vssf_settings.php:126
 #@ signupform
 msgid "Field label"
 msgstr "Étiquette de champ"
 
-#: vssf_settings.php:121
+#: vssf_settings.php:128
 #@ signupform
 msgid "All fields"
 msgstr "Tous les champs"
 
-#: vssf_settings.php:123
+#: vssf_settings.php:130
 #@ signupform
 msgid "Fields by name"
 msgstr "Champs par nom"
 
-#: vssf_settings.php:125
+#: vssf_settings.php:132
 #@ signupform
 msgid "Submit button"
 msgstr "Bouton Envoyer"
 
-#: vssf_settings.php:130
+#: vssf_settings.php:137
 #@ signupform
 msgid "Field error"
 msgstr "Champ d'erreur"
 
-#: vssf_settings.php:132
+#: vssf_settings.php:139
 #@ signupform
 msgid "Error and Thank You message"
 msgstr "Erreur et message de remerciement"
 
-#: vssf_settings.php:135
+#: vssf_settings.php:142
 #@ signupform
 msgid "Widget"
 msgstr "Widget"
 
-#: vssf_settings.php:137
+#: vssf_settings.php:144
 #@ signupform
 msgid "Plugin Stylesheet"
 msgstr "Feuille de style plug-in"
 
-#: vssf_settings.php:138
+#: vssf_settings.php:145
 #@ signupform
 msgid "For Default Style"
 msgstr "Pour le Style Défaut"
 
-#: vssf_settings.php:138
+#: vssf_settings.php:145
 #@ signupform
 msgid "Click Here"
 msgstr "Cliquez Ici"
@@ -191,6 +191,6 @@ msgstr "Cliquez Ici"
 #. translators: plugin header field 'Version'
 #: vssf_settings.php:0
 #@ signupform
-msgid "1.6"
+msgid "1.7"
 msgstr ""
 

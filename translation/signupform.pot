@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.6\n"
+"Project-Id-Version: Very Simple Signup Form v1.7\n"
 "POT-Creation-Date: 2014-03-06 19:24+0100\n"
 "PO-Revision-Date: 2014-03-06 19:26+0100\n"
 "Last-Translator: \n"
@@ -47,7 +47,7 @@ msgstr ""
 #: vssf_main.php:18
 #: vssf_main.php:19
 #@ signupform
-msgid "Please enter at least 3 characters"
+msgid "Please enter at least 2 characters"
 msgstr ""
 
 #: vssf_main.php:20
@@ -67,7 +67,7 @@ msgstr ""
 
 #. translators: plugin header field 'Name'
 #: vssf_settings.php:0
-#: vssf_settings.php:109
+#: vssf_settings.php:116
 #: vssf_widget.php:8
 #: vssf_widget.php:41
 #@ signupform
@@ -95,80 +95,80 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: vssf_settings.php:0
 #@ signupform
-msgid "1.6"
+msgid "1.7"
 msgstr ""
 
-#: vssf_settings.php:79
+#: vssf_settings.php:86
 #@ signupform
 msgid "VSSF Custom Style"
 msgstr ""
 
-#: vssf_settings.php:87
+#: vssf_settings.php:94
 #@ signupform
 msgid "Description"
 msgstr ""
 
-#: vssf_settings.php:88
+#: vssf_settings.php:95
 #@ signupform
 msgid "Custom Style"
 msgstr ""
 
-#: vssf_settings.php:94
+#: vssf_settings.php:101
 #@ signupform
 msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Signup Form."
 msgstr ""
 
-#: vssf_settings.php:113
+#: vssf_settings.php:120
 #@ signupform
 msgid "Save Style"
 msgstr ""
 
-#: vssf_settings.php:119
+#: vssf_settings.php:126
 #@ signupform
 msgid "Field label"
 msgstr ""
 
-#: vssf_settings.php:121
+#: vssf_settings.php:128
 #@ signupform
 msgid "All fields"
 msgstr ""
 
-#: vssf_settings.php:123
+#: vssf_settings.php:130
 #@ signupform
 msgid "Fields by name"
 msgstr ""
 
-#: vssf_settings.php:125
+#: vssf_settings.php:132
 #@ signupform
 msgid "Submit button"
 msgstr ""
 
-#: vssf_settings.php:130
+#: vssf_settings.php:137
 #@ signupform
 msgid "Field error"
 msgstr ""
 
-#: vssf_settings.php:132
+#: vssf_settings.php:139
 #@ signupform
 msgid "Error and Thank You message"
 msgstr ""
 
-#: vssf_settings.php:135
+#: vssf_settings.php:142
 #@ signupform
 msgid "Widget"
 msgstr ""
 
-#: vssf_settings.php:137
+#: vssf_settings.php:144
 #@ signupform
 msgid "Plugin Stylesheet"
 msgstr ""
 
-#: vssf_settings.php:138
+#: vssf_settings.php:145
 #@ signupform
 msgid "For Default Style"
 msgstr ""
 
-#: vssf_settings.php:138
+#: vssf_settings.php:145
 #@ signupform
 msgid "Click Here"
 msgstr ""
@@ -182,4 +182,5 @@ msgstr ""
 #@ signupform
 msgid "Widget Title:"
 msgstr ""
+
 

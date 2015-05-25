@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.6\n"
+"Project-Id-Version: Very Simple Signup Form v1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-04-05 22:01:38+0000\n"
+"PO-Revision-Date: 2015-05-25 09:20:13+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -50,8 +50,8 @@ msgstr "Svp alle verplichte velden invullen"
 #: vssf_main.php:18
 #: vssf_main.php:19
 #@ signupform
-msgid "Please enter at least 3 characters"
-msgstr "Svp tenminste 3 tekens invullen"
+msgid "Please enter at least 2 characters"
+msgstr "Svp tenminste 2 tekens invullen"
 
 #: vssf_main.php:21
 #@ signupform
@@ -75,7 +75,7 @@ msgstr "Aanmelden"
 
 #. translators: plugin header field 'Name'
 #: vssf_settings.php:0
-#: vssf_settings.php:109
+#: vssf_settings.php:116
 #: vssf_widget.php:8
 #: vssf_widget.php:41
 #@ signupform
@@ -113,77 +113,77 @@ msgstr "Nieuwe Aanmelding"
 msgid "This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file."
 msgstr "Dit is een zeer eenvoudig aanmeldingsformulier. Gebruik de widget om formulier in sidebar te tonen. Voor meer info zie readme bestand."
 
-#: vssf_settings.php:79
+#: vssf_settings.php:86
 #@ signupform
 msgid "VSSF Custom Style"
 msgstr "VSSF Aangepaste Stijl"
 
-#: vssf_settings.php:87
+#: vssf_settings.php:94
 #@ signupform
 msgid "Description"
 msgstr "Omschrijving"
 
-#: vssf_settings.php:88
+#: vssf_settings.php:95
 #@ signupform
 msgid "Custom Style"
 msgstr "Aangepaste Stijl"
 
-#: vssf_settings.php:94
+#: vssf_settings.php:101
 #@ signupform
 msgid "On this page you can add Custom Style (CSS) to change the layout of your Very Simple Signup Form."
 msgstr "Op deze pagina kun je Aangepaste Stijl (CSS) invoeren om het uiterlijk van je Very Simple Signup Form te veranderen."
 
-#: vssf_settings.php:113
+#: vssf_settings.php:120
 #@ signupform
 msgid "Save Style"
 msgstr "Stijl Opslaan"
 
-#: vssf_settings.php:119
+#: vssf_settings.php:126
 #@ signupform
 msgid "Field label"
 msgstr "Veld label"
 
-#: vssf_settings.php:121
+#: vssf_settings.php:128
 #@ signupform
 msgid "All fields"
 msgstr "Alle velden"
 
-#: vssf_settings.php:123
+#: vssf_settings.php:130
 #@ signupform
 msgid "Fields by name"
 msgstr "Velden op naam"
 
-#: vssf_settings.php:125
+#: vssf_settings.php:132
 #@ signupform
 msgid "Submit button"
 msgstr "Verzendknop"
 
-#: vssf_settings.php:130
+#: vssf_settings.php:137
 #@ signupform
 msgid "Field error"
 msgstr "Veld error"
 
-#: vssf_settings.php:132
+#: vssf_settings.php:139
 #@ signupform
 msgid "Error and Thank You message"
 msgstr "Foutmelding en Dank Je bericht"
 
-#: vssf_settings.php:135
+#: vssf_settings.php:142
 #@ signupform
 msgid "Widget"
 msgstr "Widget"
 
-#: vssf_settings.php:137
+#: vssf_settings.php:144
 #@ signupform
 msgid "Plugin Stylesheet"
 msgstr "Plugin Stylesheet"
 
-#: vssf_settings.php:138
+#: vssf_settings.php:145
 #@ signupform
 msgid "For Default Style"
 msgstr "Voor Standaard Stijl"
 
-#: vssf_settings.php:138
+#: vssf_settings.php:145
 #@ signupform
 msgid "Click Here"
 msgstr "Klik Hier"
@@ -191,6 +191,6 @@ msgstr "Klik Hier"
 #. translators: plugin header field 'Version'
 #: vssf_settings.php:0
 #@ signupform
-msgid "1.6"
+msgid "1.7"
 msgstr ""
 
