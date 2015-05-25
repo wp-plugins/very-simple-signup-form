@@ -14,12 +14,12 @@
 
 
 /* Input fields error */
-#vssf input.error {border-color:#e77776;}
+#vssf input.error {border-color:#e77776; color:#e77776;}
 
 
 /* Error and Thank You message */
-#vssf .error {color:#e77776;}
-#vssf .hide {display:none;}
+#vssf span.error {color:#e77776;}
+#vssf span.hide {display:none;}
 .vssf_info {margin:0 0 10px; font-style:italic; font-size:1.25em;}
 
 

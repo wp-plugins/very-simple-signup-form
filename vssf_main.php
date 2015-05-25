@@ -8,18 +8,18 @@ $_SESSION['vssf-rand'] = isset($_SESSION['vssf-rand']) ? $_SESSION['vssf-rand'] 
 function vssf_shortcode($vssf_atts) {
 	$vssf_atts = shortcode_atts( array( 
 		"email_to" 			=> get_bloginfo('admin_email'),
-		"form_subject" 			=> __('New Signup', 'signupform') ,
-		"label_name" 			=> __('Name', 'signupform') ,
-		"label_email" 			=> __('Email', 'signupform') ,
-		"label_phonenumber" 		=> __('Phone', 'signupform') ,
-		"label_sum"	 		=> __('Fill in number', 'signupform') ,
-		"label_submit" 			=> __('Signup', 'signupform') ,
-		"error_empty" 			=> __("Please fill in all the required fields", "signupform"),
-		"error_form_name" 		=> __('Please enter at least 3 characters', 'signupform') ,
-		"error_form_phonenumber" 	=> __('Please enter at least 3 characters', 'signupform') ,
-		"error_form_sum" 		=> __("Please fill in the correct number", "signupform"),
-		"error_email" 			=> __("Please enter a valid email", "signupform"),
-		"success" 				=> __("Thanks for your signup! I will contact you as soon as I can.", "signupform"),
+		"form_subject" 			=> __('New Signup', 'signupform'),
+		"label_name" 			=> __('Name', 'signupform'),
+		"label_email" 			=> __('Email', 'signupform'),
+		"label_phonenumber" 		=> __('Phone', 'signupform'),
+		"label_sum"	 		=> __('Fill in number', 'signupform'),
+		"label_submit" 			=> __('Signup', 'signupform'),
+		"error_empty" 			=> __('Please fill in all the required fields', 'signupform'),
+		"error_form_name" 		=> __('Please enter at least 2 characters', 'signupform'),
+		"error_form_phonenumber" 	=> __('Please enter at least 2 characters', 'signupform'),
+		"error_form_sum" 		=> __('Please fill in the correct number', 'signupform'),
+		"error_email" 			=> __('Please enter a valid email', 'signupform'),
+		"success" 				=> __('Thanks for your signup! I will contact you as soon as I can.', 'signupform'),
 	), $vssf_atts);
 
 	// Set some variables 
@@ -54,7 +54,7 @@ function vssf_shortcode($vssf_atts) {
 			$value = $post_data[$required_field];
 		
 			// Displaying error message if validation failed for each input field
-			if (((($required_field == "form_name") || ($required_field == "form_phonenumber")) && strlen($value)<3) || empty($value)) {
+			if (((($required_field == "form_name") || ($required_field == "form_phonenumber")) && strlen($value)<2) || empty($value)) {
 				$error_class[$required_field] = "error";
 				$error = true;
 				$result = $vssf_atts['error_empty'];
@@ -90,6 +90,7 @@ function vssf_shortcode($vssf_atts) {
 			$email_subject = "[".get_bloginfo('name')."] " . $vssf_atts['form_subject'];
 			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
+			$headers .= "Reply-To: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
 			wp_mail($vssf_atts['email_to'], $email_subject, $email_message, $headers);

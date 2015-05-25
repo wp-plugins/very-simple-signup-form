@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Signup Form
  * Description: This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file.
- * Version: 1.6
+ * Version: 1.7
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -49,9 +49,16 @@ function vssf_get_the_ip() {
 }
 
 
-// Check data before saving it in database 
+// Set return path in email headers to email from sender in stead of email from admin/server
+function vssf_phpmailer_return_path( $phpmailer ) {
+	$phpmailer->Sender = $phpmailer->From;
+}
+add_action( 'phpmailer_init', 'vssf_phpmailer_return_path' );
+
+
+// Check data from text area before saving it in database 
 // Same as sanitize_text_field function but line breaks are allowed 
-function vssf_sanitize_text_field($str) {
+function vssf_sanitize_text_area($str) {
 	$filtered = wp_check_invalid_utf8( $str );
 
 	if ( strpos($filtered, '<') !== false ) {
@@ -70,7 +77,7 @@ function vssf_sanitize_text_field($str) {
 	if ( $found ) {
 		$filtered = trim( preg_replace('/ +/', ' ', $filtered) );
 	}
-	return apply_filters( 'vssf_sanitize_text_field', $filtered, $str );
+	return apply_filters( 'vssf_sanitize_text_area', $filtered, $str );
 }
 
 
@@ -83,7 +90,7 @@ add_action( 'admin_menu', 'vssf_menu_page' );
 
 // Add the admin settings and such 
 function vssf_admin_init() {
-    register_setting( 'vssf-options', 'vssf-setting', 'vssf_sanitize_text_field' );
+    register_setting( 'vssf-options', 'vssf-setting', 'vssf_sanitize_text_area' );
     add_settings_section( 'vssf-section', __( 'Description', 'signupform' ), 'vssf_section_callback', 'vssf' );
     add_settings_field( 'vssf-field', __( 'Custom Style', 'signupform' ), 'vssf_field_callback', 'vssf', 'vssf-section' );
 }
@@ -130,7 +137,7 @@ function vssf_options_page() {
 	<p><strong><?php _e( 'Field error', 'signupform' ); ?>:</strong></p>
 	<p>#vssf input.error { }</p>
 	<p><strong><?php _e( 'Error and Thank You message', 'signupform' ); ?>:</strong></p>
-	<p>#vssf .error { }</p>
+	<p>#vssf span.error { }</p>
 	<p>.vssf_info { }</p>
 	<p><strong><?php _e( 'Widget', 'signupform' ); ?>:</strong></p>
 	<p>.vssf_sidebar { }</p>
