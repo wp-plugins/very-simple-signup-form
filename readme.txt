@@ -6,11 +6,11 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.2
 Stable tag: trunk
-Tags: simple, responsive, signup, signupform, subscribe, subscription, email, honeypot, captcha, widget, sidebar, custom, style, css, editor
+Tags: simple, responsive, signup, signupform, subscribe, subscription, event, meeting, email, honeypot, captcha, widget, sidebar, custom, style, css, editor
 
 
 == Changelog ==
-Version 1.6
+Version 1.7
 - adjusted the email headers to avoid messages go directly in junk/spam folder: added Reply-To and Return-Path
 - renamed vssf_sanitize_text_field into vssf_sanitize_text_area
 - updated language files
@@ -58,6 +58,9 @@ This plugin has no settingspage: new signups will be send to you by mail only.
 
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
+Question? Please take a look at the FAQ section.
+
+
 = Translation =
 Dutch, German, French and Spanish translation included. More translations are very welcome! Please contact me via my website.
 
@@ -83,7 +86,7 @@ The form uses email from admin (set in Settings > General).
 
 
 == Frequently Asked Questions ==
-= I don't like the form layout in my theme, how can I change this? =
+= I don't like the form layout, how can I change this? =
 Form will use theme styling for input fields and submit button. 
 
 Custom Style editor included: you can change the layout (CSS) of your form using the custom style page in WP dashboard. Max. 2000 characters allowed.
@@ -101,12 +104,12 @@ No, this plugin has no settingspage: new signups will be send to you by mail onl
 
 2) Check info about installation and check shortcode for mistakes.
 
-3) Install another contactform plugin to determine if it's caused by Very Simple Signup Form or something else.
+3) Install a contactform plugin (such as Contact Form 7) to determine if it's caused by Very Simple Signup Form or something else.
 
-4) Messages are send using the wp-mail function, maybe your hostingprovider disabled the php mail function. Ask them to enable it. 
+4) Messages are send using the wp_mail function (similar to php mail function). Maybe your hostingprovider disabled the php mail function, ask them to enable it. 
 
 = Is my language supported too? =
-All UTF-8 characters are allowed, so many languages are supported. But the plugin itself is only translated in several languages. 
+You can enter all UTF-8 characters, so many languages are supported. But the plugin itself is only translated in several languages. 
 
 = Is this plugin protected against spammers, bots, etc? =
 The default WordPress sanitization function is included.
@@ -120,6 +123,9 @@ For other fields:
 http://codex.wordpress.org/Function_Reference/sanitize_text_field
 
 It also contains honeypot fields and a simple captcha sum.
+
+= I notice there are 2 invisible fields (firstname and lastname), what's up with that? =
+This is part of anti-spam: these are the 2 honeypot fields
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
