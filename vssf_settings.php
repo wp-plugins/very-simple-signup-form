@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Signup Form
  * Description: This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file.
- * Version: 1.7
+ * Version: 1.8
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -136,13 +136,14 @@ function vssf_options_page() {
 	<td>
 	<p><strong><?php _e( 'Field error', 'signupform' ); ?>:</strong></p>
 	<p>#vssf input.error { }</p>
+	<p><strong><?php _e( 'Field label error', 'signupform' ); ?>:</strong></p>
+	<p>#vscf span.error { }</p>
 	<p><strong><?php _e( 'Error and Thank You message', 'signupform' ); ?>:</strong></p>
-	<p>#vssf span.error { }</p>
-	<p>.vssf_info { }</p>
+	<p>.vscf_info { }</p>
 	<p><strong><?php _e( 'Widget', 'signupform' ); ?>:</strong></p>
 	<p>.vssf_sidebar { }</p>
 	<p><strong><?php _e( 'Plugin Stylesheet', 'signupform' ); ?>:</strong></p>
-	<p><?php _e( 'For Default Style', 'signupform' ); ?> <a href="plugin-editor.php?file=very-simple-signup-form/vssf_style.css"><?php _e( 'Click Here', 'signupform' ); ?></a>.</p>
+	<p><?php _e( 'For Default Style', 'signupform' ); ?> <a href="plugin-editor.php?file=very-simple-signup-form/vssf_style.css"><?php _e( 'click here', 'signupform' ); ?></a>.</p>
 	</td>
 	</tr>
 	</tbody> 

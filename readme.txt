@@ -1,6 +1,6 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.7
+Version: 1.8
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,10 @@ Tags: simple, responsive, signup, signupform, subscribe, subscription, event, me
 
 
 == Changelog ==
+Version 1.8
+- several small adjustments
+- updated language files 
+
 Version 1.7
 - adjusted the email headers to avoid messages go directly in junk/spam folder: added Reply-To and Return-Path
 - renamed vssf_sanitize_text_field into vssf_sanitize_text_area
