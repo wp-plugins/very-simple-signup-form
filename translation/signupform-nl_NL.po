@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Very Simple Signup Form v1.7\n"
+"Project-Id-Version: Very Simple Signup Form v1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-05-25 09:20:13+0000\n"
+"PO-Revision-Date: 2015-06-16 21:01:51+0000\n"
 "Last-Translator: Guido van der Leest\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -163,34 +163,39 @@ msgstr "Verzendknop"
 msgid "Field error"
 msgstr "Veld error"
 
-#: vssf_settings.php:139
+#: vssf_settings.php:141
 #@ signupform
 msgid "Error and Thank You message"
 msgstr "Foutmelding en Dank Je bericht"
 
-#: vssf_settings.php:142
+#: vssf_settings.php:143
 #@ signupform
 msgid "Widget"
 msgstr "Widget"
 
-#: vssf_settings.php:144
+#: vssf_settings.php:145
 #@ signupform
 msgid "Plugin Stylesheet"
 msgstr "Plugin Stylesheet"
 
-#: vssf_settings.php:145
+#: vssf_settings.php:146
 #@ signupform
 msgid "For Default Style"
 msgstr "Voor Standaard Stijl"
 
-#: vssf_settings.php:145
+#: vssf_settings.php:139
 #@ signupform
-msgid "Click Here"
-msgstr "Klik Hier"
+msgid "Field label error"
+msgstr "Veld label fout"
+
+#: vssf_settings.php:146
+#@ signupform
+msgid "click here"
+msgstr "klik hier"
 
 #. translators: plugin header field 'Version'
 #: vssf_settings.php:0
 #@ signupform
-msgid "1.7"
+msgid "1.8"
 msgstr ""
 
