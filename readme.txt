@@ -71,7 +71,7 @@ Dutch, German, French and Spanish translation included. More translations are ve
 = Credits =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-I used this scripts for developing the Very Simple Signup Form:
+I have used these scripts for developing the Very Simple Signup Form:
 
 http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
 
