@@ -137,9 +137,9 @@ function vssf_options_page() {
 	<p><strong><?php _e( 'Field error', 'signupform' ); ?>:</strong></p>
 	<p>#vssf input.error { }</p>
 	<p><strong><?php _e( 'Field label error', 'signupform' ); ?>:</strong></p>
-	<p>#vscf span.error { }</p>
+	<p>#vssf span.error { }</p>
 	<p><strong><?php _e( 'Error and Thank You message', 'signupform' ); ?>:</strong></p>
-	<p>.vscf_info { }</p>
+	<p>.vssf_info { }</p>
 	<p><strong><?php _e( 'Widget', 'signupform' ); ?>:</strong></p>
 	<p>.vssf_sidebar { }</p>
 	<p><strong><?php _e( 'Plugin Stylesheet', 'signupform' ); ?>:</strong></p>
