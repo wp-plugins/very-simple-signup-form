@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Signup Form\n"
 "POT-Creation-Date: 2015-07-27 08:41+0200\n"
-"PO-Revision-Date: 2015-07-27 08:45+0200\n"
+"PO-Revision-Date: 2015-07-27 13:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -112,7 +112,7 @@ msgstr "Verzendknop"
 
 #: vssf_settings.php:137
 msgid "Field error"
-msgstr "Veld error"
+msgstr "Veld fout"
 
 #: vssf_settings.php:139
 msgid "Field label error"
