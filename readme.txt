@@ -1,6 +1,6 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.8
+Version: 1.9
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,9 @@ Tags: simple, responsive, signup, signupform, subscribe, subscription, event, me
 
 
 == Changelog ==
+Version 1.9
+- updated language files
+
 Version 1.8
 - several small adjustments
 - updated language files 
@@ -71,13 +74,13 @@ Dutch, German, French and Spanish translation included. More translations are ve
 = Credits =
 Without the WordPress codex and help from the WordPress community I was not able to develop this plugin, so: thank you!
 
-I have used these scripts for developing the Very Simple Signup Form:
+I have used these tutorials for developing the Very Simple Signup Form:
 
 http://code.tutsplus.com/articles/creating-a-simple-contact-form-for-simple-needs--wp-27893
 
 http://code.tutsplus.com/articles/building-custom-wordpress-widgets--wp-25241
 
-These scripts are released under the GNU General Public License v3 or later
+These tutorials are released under the GNU General Public License v3 or later
 
 Enjoy,
 Guido
