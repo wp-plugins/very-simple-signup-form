@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Signup Form
  * Description: This is a very simple signup form. Use the widget to display form in sidebar. For more info please check readme file.
- * Version: 1.9
+ * Version: 2.0
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -114,11 +114,19 @@ function vssf_options_page() {
 <div class="wrap"> 
 	<div id="icon-plugins" class="icon32"></div> 
 	<h2><?php _e( 'Very Simple Signup Form', 'signupform' ); ?></h2> 
+
+<hr>
+<p>IMPORTANT INFO: I WILL REMOVE THE CUSTOM STYLE EDITOR IN NEXT UPDATE (VERSION 2.1).</p>
+<p>WHY? BECAUSE THERE ARE MANY PLUGINS FOR THAT SUCH AS MY OWN PLUGIN <a href="https://wordpress.org/plugins/very-simple-custom-style">Very Simple Custom Style</a>.</p>
+<p>SO IF YOU'VE ADDED CUSTOM STYLE, PLEASE REMOVE THIS AND USE (FOR EXAMPLE) MY PLUGIN IN STEAD.</p>
+<hr>
+
 	<form action="options.php" method="POST">
 	<?php settings_fields( 'vssf-options' ); ?>
 	<?php do_settings_sections( 'vssf' ); ?>
 	<?php submit_button(__('Save Style', 'signupform')); ?>
 	</form>
+
 	<table class="widefat"> 
 	<tbody> 
 	<tr> 

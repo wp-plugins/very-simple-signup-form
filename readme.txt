@@ -1,6 +1,6 @@
 === Very Simple Signup Form ===
 Contributors: Guido07111975
-Version: 1.9
+Version: 2.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, responsive, signup, signupform, subscribe, subscription, event, me
 
 
 == Changelog ==
+Version 2.0
+- NOTE: in next version I will remove the custom style editor. More info: WordPress plugin page and readme file
+- submitter will now receive signup confirmation by mail
+- updated language files
+
 Version 1.9
 - updated language files
 
@@ -66,6 +71,13 @@ This plugin has no settingspage: new signups will be send to you by mail only.
 You can change the layout (CSS) of your form using the custom style page in WP dashboard.
 
 Question? Please take a look at the FAQ section.
+
+
+IMPORTANT INFO: I WILL REMOVE THE CUSTOM STYLE EDITOR IN NEXT UPDATE (VERSION 2.1).
+
+WHY? BECAUSE THERE ARE MANY PLUGINS FOR THAT SUCH AS MY OWN PLUGIN <a href="https://wordpress.org/plugins/very-simple-custom-style">Very Simple Custom Style</a>.
+
+SO IF YOU'VE ADDED CUSTOM STYLE, PLEASE REMOVE THIS AND USE (FOR EXAMPLE) MY PLUGIN IN STEAD.
 
 
 = Translation =
