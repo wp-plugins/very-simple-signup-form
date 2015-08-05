@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Signup Form\n"
-"POT-Creation-Date: 2015-07-27 08:15+0200\n"
+"POT-Creation-Date: 2015-08-04 23:28+0200\n"
 "PO-Revision-Date: 2015-07-27 08:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Poedit-WPHeader: vssf_settings.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -24,43 +24,48 @@ msgid "New Signup"
 msgstr ""
 
 #: vssf_main.php:12
-msgid "Name"
+msgid "Your Signup"
 msgstr ""
 
 #: vssf_main.php:13
-msgid "Email"
+msgid "Name"
 msgstr ""
 
 #: vssf_main.php:14
-msgid "Phone"
+msgid "Email"
 msgstr ""
 
 #: vssf_main.php:15
-msgid "Fill in number"
+msgid "Phone"
 msgstr ""
 
 #: vssf_main.php:16
-msgid "Signup"
+msgid "Fill in number"
 msgstr ""
 
 #: vssf_main.php:17
+msgid "Signup"
+msgstr ""
+
+#: vssf_main.php:18
 msgid "Please fill in all the required fields"
 msgstr ""
 
-#: vssf_main.php:18 vssf_main.php:19
+#: vssf_main.php:19 vssf_main.php:20
 msgid "Please enter at least 2 characters"
 msgstr ""
 
-#: vssf_main.php:20
+#: vssf_main.php:21
 msgid "Please fill in the correct number"
 msgstr ""
 
-#: vssf_main.php:21
+#: vssf_main.php:22
 msgid "Please enter a valid email"
 msgstr ""
 
-#: vssf_main.php:22
-msgid "Thanks for your signup! I will contact you as soon as I can."
+#: vssf_main.php:23
+msgid ""
+"Thank you for your signup! You will receive a response as soon as possible."
 msgstr ""
 
 #: vssf_settings.php:86

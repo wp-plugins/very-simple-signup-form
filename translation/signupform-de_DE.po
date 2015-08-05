@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Signup Form\n"
-"POT-Creation-Date: 2015-07-27 08:20+0200\n"
-"PO-Revision-Date: 2015-07-27 08:51+0200\n"
+"POT-Creation-Date: 2015-08-04 23:29+0200\n"
+"PO-Revision-Date: 2015-08-04 23:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -25,44 +25,51 @@ msgid "New Signup"
 msgstr "Neue Anmeldung"
 
 #: vssf_main.php:12
+msgid "Your Signup"
+msgstr "Ihre Anmeldung"
+
+#: vssf_main.php:13
 msgid "Name"
 msgstr "Name"
 
-#: vssf_main.php:13
+#: vssf_main.php:14
 msgid "Email"
 msgstr "E-Mail-Adresse"
 
-#: vssf_main.php:14
+#: vssf_main.php:15
 msgid "Phone"
 msgstr "Telefon"
 
-#: vssf_main.php:15
+#: vssf_main.php:16
 msgid "Fill in number"
 msgstr "Folgende Nummer eingeben"
 
-#: vssf_main.php:16
+#: vssf_main.php:17
 msgid "Signup"
 msgstr "Anmelden"
 
-#: vssf_main.php:17
+#: vssf_main.php:18
 msgid "Please fill in all the required fields"
 msgstr "Bitte füllen Sie alle erforderlichen Felder aus"
 
-#: vssf_main.php:18 vssf_main.php:19
+#: vssf_main.php:19 vssf_main.php:20
 msgid "Please enter at least 2 characters"
 msgstr "Geben Sie bitte mindestens 2 Zeichen ein"
 
-#: vssf_main.php:20
+#: vssf_main.php:21
 msgid "Please fill in the correct number"
 msgstr "Bitte die richtige Nummer eingeben"
 
-#: vssf_main.php:21
+#: vssf_main.php:22
 msgid "Please enter a valid email"
 msgstr "Bitte geben Sie eine gültige E-Mail-Adresse an"
 
-#: vssf_main.php:22
-msgid "Thanks for your signup! I will contact you as soon as I can."
-msgstr "Vielen Dank für Ihre Anmeldung! Wir kontaktieren Sie alsbald."
+#: vssf_main.php:23
+msgid ""
+"Thank you for your signup! You will receive a response as soon as possible."
+msgstr ""
+"Vielen Dank für Ihre Anmeldung. Sie werden so schnell wie möglich eine "
+"Antwort erhalten."
 
 #: vssf_settings.php:86
 msgid "VSSF Custom Style"
@@ -81,8 +88,8 @@ msgid ""
 "On this page you can add Custom Style (CSS) to change the layout of your "
 "Very Simple Signup Form."
 msgstr ""
-"Auf dieser Seite können Sie den benutzerdefinierten Stil (CSS) hinzufügen "
-"um das Layout Ihres Very Simple Signup Form zu ändern."
+"Auf dieser Seite können Sie den benutzerdefinierten Stil (CSS) hinzufügen um "
+"das Layout Ihres Very Simple Signup Form zu ändern."
 
 #. Plugin Name of the plugin/theme
 #: vssf_settings.php:116 vssf_widget.php:8 vssf_widget.php:41
@@ -150,9 +157,9 @@ msgid ""
 "This is a very simple signup form. Use the widget to display form in "
 "sidebar. For more info please check readme file."
 msgstr ""
-"Dies ist ein sehr einfaches Anmeldungsformular. Verwenden Sie das Widget "
-"um Form in Sidebar zu zeigen. Für weitere Informationen bitte überprüfen "
-"Sie die Readme-Datei."
+"Dies ist ein sehr einfaches Anmeldungsformular. Verwenden Sie das Widget um "
+"Form in Sidebar zu zeigen. Für weitere Informationen bitte überprüfen Sie "
+"die Readme-Datei."
 
 #. Author of the plugin/theme
 msgid "Guido van der Leest"
@@ -161,3 +168,6 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.guidovanderleest.nl"
 msgstr ""
+
+#~ msgid "Thanks for your signup! I will contact you as soon as I can."
+#~ msgstr "Vielen Dank für Ihre Anmeldung! Wir kontaktieren Sie alsbald."

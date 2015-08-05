@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Signup Form\n"
-"POT-Creation-Date: 2015-07-27 08:34+0200\n"
-"PO-Revision-Date: 2015-07-27 08:49+0200\n"
+"POT-Creation-Date: 2015-08-04 23:30+0200\n"
+"PO-Revision-Date: 2015-08-04 23:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -25,45 +25,50 @@ msgid "New Signup"
 msgstr "Nouvel Inscription"
 
 #: vssf_main.php:12
+msgid "Your Signup"
+msgstr "Votre Inscription"
+
+#: vssf_main.php:13
 msgid "Name"
 msgstr "Nom"
 
-#: vssf_main.php:13
+#: vssf_main.php:14
 msgid "Email"
 msgstr "Adresse e-mail"
 
-#: vssf_main.php:14
+#: vssf_main.php:15
 msgid "Phone"
 msgstr "Téléphone"
 
-#: vssf_main.php:15
+#: vssf_main.php:16
 msgid "Fill in number"
 msgstr "Remplir le nombre"
 
-#: vssf_main.php:16
+#: vssf_main.php:17
 msgid "Signup"
 msgstr "Signer"
 
-#: vssf_main.php:17
+#: vssf_main.php:18
 msgid "Please fill in all the required fields"
 msgstr "Veuillez remplir tous les champs requis"
 
-#: vssf_main.php:18 vssf_main.php:19
+#: vssf_main.php:19 vssf_main.php:20
 msgid "Please enter at least 2 characters"
 msgstr "Veuillez entrer au moins 2 charactères"
 
-#: vssf_main.php:20
+#: vssf_main.php:21
 msgid "Please fill in the correct number"
 msgstr "Veuillez remplir avec le nombre correct"
 
-#: vssf_main.php:21
+#: vssf_main.php:22
 msgid "Please enter a valid email"
 msgstr "Veuillez entrer une adresse e-mail valide"
 
-#: vssf_main.php:22
-msgid "Thanks for your signup! I will contact you as soon as I can."
+#: vssf_main.php:23
+msgid ""
+"Thank you for your signup! You will receive a response as soon as possible."
 msgstr ""
-"Merci pour votre inscription! Nous vous contacterons dans les plus brefs "
+"Merci pour votre inscription! Vous recevrez une réponse dans les plus brefs "
 "délais."
 
 #: vssf_settings.php:86
@@ -163,3 +168,8 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.guidovanderleest.nl"
 msgstr ""
+
+#~ msgid "Thanks for your signup! I will contact you as soon as I can."
+#~ msgstr ""
+#~ "Merci pour votre inscription! Nous vous contacterons dans les plus brefs "
+#~ "délais."

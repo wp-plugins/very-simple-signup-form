@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Signup Form\n"
-"POT-Creation-Date: 2015-07-27 08:27+0200\n"
-"PO-Revision-Date: 2015-07-27 08:33+0200\n"
+"POT-Creation-Date: 2015-08-04 23:30+0200\n"
+"PO-Revision-Date: 2015-08-04 23:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -25,44 +25,50 @@ msgid "New Signup"
 msgstr "Nuevo Registro"
 
 #: vssf_main.php:12
+msgid "Your Signup"
+msgstr "Su Registro"
+
+#: vssf_main.php:13
 msgid "Name"
 msgstr "Nombre"
 
-#: vssf_main.php:13
+#: vssf_main.php:14
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: vssf_main.php:14
+#: vssf_main.php:15
 msgid "Phone"
 msgstr "Teléfono"
 
-#: vssf_main.php:15
+#: vssf_main.php:16
 msgid "Fill in number"
 msgstr "Rellene número"
 
-#: vssf_main.php:16
+#: vssf_main.php:17
 msgid "Signup"
 msgstr "Registro"
 
-#: vssf_main.php:17
+#: vssf_main.php:18
 msgid "Please fill in all the required fields"
 msgstr "Por favor, rellene todos los campos requeridos"
 
-#: vssf_main.php:18 vssf_main.php:19
+#: vssf_main.php:19 vssf_main.php:20
 msgid "Please enter at least 2 characters"
 msgstr "Por favor, introduzca al menos dos caracteres"
 
-#: vssf_main.php:20
+#: vssf_main.php:21
 msgid "Please fill in the correct number"
 msgstr "Por favor, rellene el número correcto"
 
-#: vssf_main.php:21
+#: vssf_main.php:22
 msgid "Please enter a valid email"
 msgstr "Por favor, introduzca un correo electrónico válido"
 
-#: vssf_main.php:22
-msgid "Thanks for your signup! I will contact you as soon as I can."
-msgstr "¡Gracias por su registro! Le contactaré lo antes posible."
+#: vssf_main.php:23
+msgid ""
+"Thank you for your signup! You will receive a response as soon as possible."
+msgstr ""
+"¡Gracias por su registro! Usted recibirá una respuesta lo antes posible."
 
 #: vssf_settings.php:86
 msgid "VSSF Custom Style"
@@ -150,9 +156,8 @@ msgid ""
 "This is a very simple signup form. Use the widget to display form in "
 "sidebar. For more info please check readme file."
 msgstr ""
-"Este es un sencillo formulario de registro. Utilizar el widget para "
-"mostrar la forma en sidebar. Para más información consulte el fichero de "
-"README."
+"Este es un sencillo formulario de registro. Utilizar el widget para mostrar "
+"la forma en sidebar. Para más información consulte el fichero de README."
 
 #. Author of the plugin/theme
 msgid "Guido van der Leest"
@@ -161,3 +166,6 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.guidovanderleest.nl"
 msgstr ""
+
+#~ msgid "Thanks for your signup! I will contact you as soon as I can."
+#~ msgstr "¡Gracias por su registro! Le contactaré lo antes posible."
