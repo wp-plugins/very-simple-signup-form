@@ -8,7 +8,8 @@ $_SESSION['vssf-rand'] = isset($_SESSION['vssf-rand']) ? $_SESSION['vssf-rand'] 
 function vssf_shortcode($vssf_atts) {
 	$vssf_atts = shortcode_atts( array( 
 		"email_to" 			=> get_bloginfo('admin_email'),
-		"form_subject" 			=> __('New Signup', 'signupform'),
+		"form_subject_admin" 		=> __('New Signup', 'signupform'),
+		"form_subject_submitter" 	=> __('Your Signup', 'signupform'),
 		"label_name" 			=> __('Name', 'signupform'),
 		"label_email" 			=> __('Email', 'signupform'),
 		"label_phonenumber" 		=> __('Phone', 'signupform'),
@@ -19,7 +20,7 @@ function vssf_shortcode($vssf_atts) {
 		"error_form_phonenumber" 	=> __('Please enter at least 2 characters', 'signupform'),
 		"error_form_sum" 		=> __('Please fill in the correct number', 'signupform'),
 		"error_email" 			=> __('Please enter a valid email', 'signupform'),
-		"success" 				=> __('Thanks for your signup! I will contact you as soon as I can.', 'signupform'),
+		"success" 				=> __('Thank you for your signup! You will receive a response as soon as possible.', 'signupform'),
 	), $vssf_atts);
 
 	// Set some variables 
@@ -87,13 +88,16 @@ function vssf_shortcode($vssf_atts) {
 
 		// Sending message to admin
 		if ($error == false) {
-			$email_subject = "[".get_bloginfo('name')."] " . $vssf_atts['form_subject'];
-			$email_message = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
+			$email_subject_admin = "[".get_bloginfo('name')."] " . $vssf_atts['form_subject_admin'];
+			$email_subject_submitter = "[".get_bloginfo('name')."] " . $vssf_atts['form_subject_submitter'];
+			$email_message_admin = $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
+			$email_message_submitter = $vssf_atts['success'] . "\n\n" . $form_data['form_name'] . "\n\n" . $form_data['email'] . "\n\n" . $form_data['form_phonenumber'] . "\n\nIP: " . vssf_get_the_ip();
 			$headers  = "From: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Reply-To: ".$form_data['form_name']." <".$form_data['email'].">\n";
 			$headers .= "Content-Type: text/plain; charset=UTF-8\n";
 			$headers .= "Content-Transfer-Encoding: 8bit\n";
-			wp_mail($vssf_atts['email_to'], $email_subject, $email_message, $headers);
+			wp_mail($vssf_atts['email_to'], $email_subject_admin, $email_message_admin, $headers);
+			wp_mail($form_data['email'], $email_subject_submitter, $email_message_submitter, $headers);
 			$result = $vssf_atts['success'];
 			$sent = true;
 		}
